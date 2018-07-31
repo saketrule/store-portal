@@ -1,0 +1,28 @@
+{
+  "name": "store-portal",
+  "version": "1.0.0",
+  "description": "work in progress for logistics portal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon --watch src src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saketrule/store-portal.git"
+  },
+  "author": "saket joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saketrule/store-portal/issues"
+  },
+  "homepage": "https://github.com/saketrule/store-portal#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "roughjs": "^2.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
