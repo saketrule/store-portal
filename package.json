@@ -20,6 +20,7 @@
   "homepage": "https://github.com/saketrule/store-portal#readme",
   "dependencies": {
     "express": "^4.16.3",
+    "pg": "^6.0.1",
     "roughjs": "^2.2.5"
   },
   "devDependencies": {
