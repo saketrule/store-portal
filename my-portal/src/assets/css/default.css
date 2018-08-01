@@ -1,0 +1,19 @@
+html, body, #root, .App {
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	border : 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#body_container {
+	box-sizing: border-box;
+	height : 100%;
+	width : 75%;
+	background-color: cyan;
+	float: left;
+	border : 0px;
+	padding: 20px;
+	margin: 0px;
+}
