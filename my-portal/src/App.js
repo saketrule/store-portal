@@ -4,13 +4,13 @@ import React, { Component } from 'react';
 import MenuComponent from './components/layout/MenuComponent';
 import BodyComponent from './components/layout/BodyComponent';
 import { 
-	BrowserRouter as Router,
-	Route
+	BrowserRouter as Router
   } from 'react-router-dom';
 
 import './assets/css/default.css';
 
 class App extends Component {
+
   render() {
     return (
     	<Router>
@@ -22,5 +22,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;

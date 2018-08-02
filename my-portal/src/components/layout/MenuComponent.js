@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 // absolute path not working for now
 import '../../assets/css/menu-component.css';
 import {
-	Router,
 	Link
 } from 'react-router-dom';
 
