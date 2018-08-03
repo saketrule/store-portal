@@ -10,7 +10,7 @@ html, body, #root, .App {
 #body_container {
 	box-sizing: border-box;
 	height : 100%;
-	width : 75%;
+	width : 80%;
 	background-color: cyan;
 	float: left;
 	border : 0px;
