@@ -11,9 +11,26 @@ html, body, #root, .App {
 	box-sizing: border-box;
 	height : 100%;
 	width : 75%;
-	background-color: cyan;
+	background-color: #3D9970;
 	float: left;
 	border : 0px;
 	padding: 20px;
 	margin: 0px;
+}
+
+table {
+	width: 100%;
+	text-align: left;
+	background-color: lemonchiffon;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: goldenrod;
+	color: white;
+}
+
+td, th {
+	padding: 10px;
+	border: 1px solid goldenrod;
 }
