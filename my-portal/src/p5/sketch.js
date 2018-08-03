@@ -60,7 +60,7 @@ export default function sketch (p) {
         p.fill(30);
       }
       p.rect(this.x,this.y,this.width,this.height);
-      if(this.showLabel == true){
+      if(this.showLabel === true){
         this.displayLabel();
       }
     }
@@ -122,7 +122,7 @@ export default function sketch (p) {
 
     // Show stats based on mouse position
     // Do not add to same loop above, else another shelf will be generated over the label
-    for(var i=0;i<shelves.length; i++){
+    for(let i=0;i<shelves.length; i++){
       if(shelves[i].onShelf(p.mouseX,p.mouseY)){
         write_on_mouse(shelves[i].getStats())
       }
